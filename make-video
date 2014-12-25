@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# http://ubuntuforums.org/showthread.php?t=2173013&p=12782340#post12782340
+# http://hamelot.co.uk/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/
+ffmpeg -f image2 -pix_fmt yuv420p -r 6 -pattern_type glob -i 'frames/*.png' -s 1920x1080 -vcodec libx264 frames/output.mp4

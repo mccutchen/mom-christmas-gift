@@ -1,0 +1,9 @@
+#!/bin/bash
+
+width=7200
+height=2400
+n=4
+
+./markovangelo.py -n $n --width $width --height $height -o output/ input/irises.jpg
+./markovangelo.py -n $n --width $width --height $height -o output/ input/irises.jpg input/life-magazine-cover.jpg
+./markovangelo.py -n $n --width $width --height $height -o output/ input/life-magazine-cover.jpg

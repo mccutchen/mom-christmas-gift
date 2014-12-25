@@ -1,0 +1,17 @@
+#!/bin/bash
+
+export outdir=frames
+export outsize=1920x1080
+
+mkdir -p $outdir
+
+function convert_img() {
+    srcimg="$1"
+    dstimg="$outdir/$(basename $srcimg)"
+    echo "$srcimg => $dstimg"
+    convert $srcimg -thumbnail $outsize -background black -gravity center -extent $outsize $dstimg
+}
+
+export -f convert_img
+
+find ./output -name "*.png" | parallel -a - convert_img
