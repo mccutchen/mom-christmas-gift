@@ -14,7 +14,8 @@ as the inputs to a little computer program I wrote.
 
 *(Note: it took me a while to realize that there were at least two candidates
 for Van Gogh's Irises, and I just picked the one whose colors I liked best. I
-really hope it's the one you had in mind!)*
+really hope it's the one you had in mind! Also, I picked the Life Magazine
+version of the V-J Day photo, because I liked the splash of red.)*
 
 That program (whose source code you can see above), took these inputs:
 
