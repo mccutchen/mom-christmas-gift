@@ -30,7 +30,8 @@ beafutiful about them, but I can sometimes get captivated by the process
 involved and have a hard time looking at the results with clear eyes.
 
 Also, I have no idea how they'll look when printed on canvas. I hope they turn
-out nicely, though!
+out nicely, though! (You can see the enormous, full-sized output images
+[here][output1], [here][output2], and [here][output3].)
 
 
 Some technical details, if you're interested
@@ -88,3 +89,6 @@ with that, if you're interested.
 
 [markov-chain]: http://en.wikipedia.org/wiki/Markov_chain
 [markovangelo]: https://github.com/mccutchen/mom-christmas-gift/blob/master/markovangelo.py
+[output1]: https://raw.githubusercontent.com/mccutchen/mom-christmas-gift/master/output/1419098141.png
+[output2]: https://raw.githubusercontent.com/mccutchen/mom-christmas-gift/master/output/1419093803.png
+[output3]: https://raw.githubusercontent.com/mccutchen/mom-christmas-gift/master/output/1419111125.png
